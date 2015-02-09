@@ -1,0 +1,18 @@
+import java.time.Clock;
+import java.time.Instant;
+import java.time.ZoneId;
+
+
+public class ClockTest {
+
+	public static void main(String[] args) {
+		Clock clock = Clock.systemDefaultZone();
+		System.out.println(clock);
+		//ClockTest clocktest = new ClockTest();
+	}
+	
+	public ClockTest() {
+		System.out.println();
+	}
+
+}

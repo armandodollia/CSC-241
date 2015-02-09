@@ -1,0 +1,36 @@
+import java.time.Clock;
+import java.time.Instant;
+import java.time.ZoneId;
+
+
+public class ClockTest extends Clock {
+
+	public static void main(String[] args) {
+		
+		ClockTest clocktest = new ClockTest();
+	}
+	
+	public ClockTest() {
+		super();
+		System.out.println();
+	}
+
+	@Override
+	public ZoneId getZone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Instant instant() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Clock withZone(ZoneId zone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
